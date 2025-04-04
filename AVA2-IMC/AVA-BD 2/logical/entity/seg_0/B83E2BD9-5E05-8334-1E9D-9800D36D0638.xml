@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B83E2BD9-5E05-8334-1E9D-9800D36D0638" name="Paciente">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:13:24 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Paciente</shortName>
+<synonym>Paciente</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="95DE0009-CF4D-456F-4D0C-BE8197EC54DB">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:13:46 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="02EE004A-9AA9-EE74-3D95-52FBE918BF06">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:14:58 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="A0682391-9E11-2885-F5A5-DCC8BA56A106">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:15:07 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="4ABCFF6C-C3BD-25E7-70F0-768BCF699C07">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:15:55 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dataMedidas" id="0050E711-8DB4-6B63-17EB-55FC10F63346">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:17:08 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alergia" id="CFD9C872-427A-0C38-813C-49684405F9F1">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:33:41 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="341BF9A1-CAEC-B013-53A3-6614DB44DB81" name="Paciente PK">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-04 00:23:41 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>02EE004A-9AA9-EE74-3D95-52FBE918BF06</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

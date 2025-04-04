@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="823C453F-0BE9-F83A-8693-722675ADFF06" name="HistoricoPessoa">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:18:47 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>HistoricoPessoa</shortName>
+<synonym>HistoricoPessoa</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="imc" id="8AF1DA22-9F39-8F4A-3437-C7037F0FCE5A">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:24:25 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="exames" id="9AF5BC61-DF0C-C4C3-8635-C5F6AB5C9A16">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:24:54 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="avaliacao" id="5E3623D8-BD79-23F2-3B0C-CAB1233D917A">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-03 23:25:14 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoPaciente " id="72F25FC8-86E1-EB19-5359-B5EA212E9EDE">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-04 00:20:19 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="infoImcPaciente" id="2F4320E0-7BCA-52EC-6241-E535AA219362">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-04 00:21:02 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="8B08C002-71D6-5B51-3483-08026322625B">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-04 00:27:11 UTC</createdTime>
+<generatorID>D1E566B3-00D4-3608-6A06-6D4E3AF0831D</generatorID>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<referedAttribute>02EE004A-9AA9-EE74-3D95-52FBE918BF06</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="3ECFAC09-171C-E39A-9FBF-4CA9150BFC60">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-04 00:27:44 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9ED4E49E-3AEE-184A-8120-F2F0D519DD4F" name="HistoricoPessoa PK">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-04 00:27:52 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3ECFAC09-171C-E39A-9FBF-4CA9150BFC60</attributeRef>
+<attributeRef>2F4320E0-7BCA-52EC-6241-E535AA219362</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

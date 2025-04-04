@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="D1E566B3-00D4-3608-6A06-6D4E3AF0831D">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-04-04 00:27:11 UTC</createdTime>
+<ownerDesignName>AVA-BD 2</ownerDesignName>
+<engineerTo>
+<item key="81B51106-54AC-C9A5-7B46-0643AAF3E062" value="true"/>
+</engineerTo>
+<sourcePk>341BF9A1-CAEC-B013-53A3-6614DB44DB81</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>B83E2BD9-5E05-8334-1E9D-9800D36D0638</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>823C453F-0BE9-F83A-8693-722675ADFF06</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
