@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CDD7CC32-A452-F9B0-F415-12D255C52D81" name="Cliente">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:03:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8295F15A-CE73-78B8-AC1C-BBEED3279612" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente " id="E13CADA2-AD13-1F00-04BC-255B86C704E9">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:03:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8295F15A-CE73-78B8-AC1C-BBEED3279612" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCompletoDoCliente" id="7701E5A2-2BDC-9807-9159-F5BDACBBF587">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:04:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8295F15A-CE73-78B8-AC1C-BBEED3279612" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6B9A5BBE-E854-EF50-76D4-5E2ACF39BCD9" name="Cliente PK">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:03:45 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="8295F15A-CE73-78B8-AC1C-BBEED3279612" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E13CADA2-AD13-1F00-04BC-255B86C704E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

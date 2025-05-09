@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B42D764B-3E94-3506-0A4F-42ADFB3ED8B5" name="Cliente">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>CDD7CC32-A452-F9B0-F415-12D255C52D81</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="8FB9318C-07A2-6C21-3CAC-CC2BFDC7A6DD">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>E13CADA2-AD13-1F00-04BC-255B86C704E9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCompletoDoCliente" id="AEA0F416-C4E3-DD9E-9DE2-FC2274A61DC6">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>7701E5A2-2BDC-9807-9159-F5BDACBBF587</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8C227D79-D010-C93C-889C-DC3A14B0CFD6" name="Cliente_PK">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>6B9A5BBE-E854-EF50-76D4-5E2ACF39BCD9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FB9318C-07A2-6C21-3CAC-CC2BFDC7A6DD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

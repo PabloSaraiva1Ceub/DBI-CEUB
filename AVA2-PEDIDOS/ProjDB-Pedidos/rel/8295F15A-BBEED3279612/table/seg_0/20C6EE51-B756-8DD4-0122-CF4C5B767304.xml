@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="20C6EE51-B756-8DD4-0122-CF4C5B767304" name="Telefone">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>524F610D-954B-E3BC-111E-52AA5765EDB4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="557C9585-24B7-E669-5E5B-2C3EC60EF270">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>AF3ADDCA-9946-E850-59FE-02D64361902B</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="B6133F2D-5B6D-C261-1F24-E13BECBCB836">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>2CC087F0-9C1B-A67C-889F-601448ACD5DB</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneCliente" id="E454CDF4-CDF2-8FCD-4DCD-1B8AAD97FDF4">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>DC1FE0A5-18B8-9246-55AB-276873C6CA06</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cliente_cpfCliente" id="8861F670-B496-6466-3F10-29198C76EE92">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>CBAA27C0-A93C-117D-A746-31CE81B80CF2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25D3D657-C585-1182-3C2F-DAD09B80460A" referredColumn="8FB9318C-07A2-6C21-3CAC-CC2BFDC7A6DD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2C3AFC3E-F7F8-8F29-9771-A965F5740AE5" name="Telefone_PK">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>0E25EE8D-C166-75E2-4536-8C34A47D990E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="557C9585-24B7-E669-5E5B-2C3EC60EF270"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BBBF6832-C5D4-1A37-9078-E43AD72E5353" name="Telefone_Cliente_FK">
+<createdBy>saraivap435</createdBy>
+<createdTime>2025-05-09 00:48:41 UTC</createdTime>
+<generatorID>AD312CC1-01A0-E986-ABDF-7C8DD4B0A6B8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8861F670-B496-6466-3F10-29198C76EE92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
